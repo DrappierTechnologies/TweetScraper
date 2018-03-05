@@ -12,6 +12,10 @@ from TweetScraper.utils import mkdirs
 
 logger = logging.getLogger(__name__)
 
+class BasicPipeline(object):
+    def process_item(self, item, spider):
+        return item
+
 class SaveToMongoPipeline(object):
 
     ''' pipeline that save data to mongodb '''
