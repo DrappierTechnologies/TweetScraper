@@ -14,7 +14,7 @@ except ImportError:
 
 from datetime import datetime
 
-from TweetScraper.items import Tweet, User
+from scrapy.items import Tweet, User
 
 logger = logging.getLogger(__name__)
 
