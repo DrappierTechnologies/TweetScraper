@@ -6,8 +6,8 @@ import pymongo
 import json
 import os
 
-from scrapy.items import Tweet, User
-from scrapy.utils import mkdirs
+from TweetScraper.items import Tweet, User
+from TweetScraper.utils import mkdirs
 
 
 logger = logging.getLogger(__name__)
